@@ -1,6 +1,6 @@
 const Display = ({ unidad, clima }) => {
 
-    const icono = clima == 'Soleado' ? '🌧️' : '☀️';
+    const icono = (clima == 'Soleado') ? '🌧️' : '☀️';
 
     return (
         <div className="display-clima">
